@@ -29,11 +29,11 @@ li {
   width: 150vh;
   height: auto;
   display: flex;
-  gap: 1em;
 }
 
 .img {
   background-image: url("resources/images/resume.png");
+  background-color: hsl(143, 61%, 65%);
   height: 30vh;
   width: 30vh;
   background-size: contain;
@@ -47,12 +47,19 @@ li {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 1em;
+  padding: 0.5em;
+}
+.edubg,
+.sabg,
+.leadbg,
+.socbg {
+  background-color: #8ee4af;
 }
 .name {
   font-weight: 900;
 }
 a {
+  color: #05386b;
   text-transform: uppercase;
   transition: 0.5s;
 }
@@ -79,9 +86,26 @@ a:hover {
   li {
     font-size: 1.7em;
   }
-  h1 {
+  p {
+    font-weight: 550;
+  }
+  h1,
+  h2,
+  h3 {
+    font-size: 1.9em;
     display: flex;
-    align-items: center;
+  }
+  h1,
+  h2 {
+    display: flex;
     justify-content: center;
+  }
+  a {
+    text-transform: uppercase;
+    transition: 0.5s;
+  }
+  a:hover {
+    color: whitesmoke;
+    transition: 0.5s;
   }
 }
