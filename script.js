@@ -1,5 +1,5 @@
-window.addEventListener("resize", hidesocbg);
-function hidesocbg() {
+window.addEventListener("resize", relocsocbg);
+function relocsocbg() {
     const docsize = window.matchMedia("(max-width: 640px)")
     var cont2 = document.getElementById("container2")
     var socbg = document.getElementById("socbg")

@@ -10,7 +10,9 @@ body {
   display: flex;
   justify-content: center;
 }
-
+.name {
+  font-size: 2.5em;
+}
 h1,
 h2,
 h3 {
@@ -201,6 +203,10 @@ a:hover {
     background-color: #8ee4af;
   }
 
+  .name {
+    font-size: 1.5em;
+  }
+
   .edubg,
   .leadbg,
   .socbg {
@@ -220,8 +226,10 @@ a:hover {
     font-size: 1.9em;
     display: flex;
   }
+
   h1,
-  h2 {
+  h2,
+  .name {
     display: flex;
     justify-content: center;
   }
@@ -232,5 +240,10 @@ a:hover {
   a:hover {
     color: whitesmoke;
     transition: 0.5s;
+  }
+
+  .socbg > a * {
+    width: 64px;
+    height: 64px;
   }
 }
