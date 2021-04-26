@@ -64,11 +64,16 @@ li {
 a {
   color: #05386b;
   text-transform: uppercase;
-  transition: 0.5s;
+  transition: 250ms ease-out;
 }
 a:hover {
   color: whitesmoke;
-  transition: 0.5s;
+}
+.socbg > a * {
+  transition: 200ms ease-in-out;
+}
+.socbg > a:hover * {
+  transition: 200ms ease-in-out;
 }
 .container1 {
   display: flex;
@@ -189,6 +194,19 @@ a:hover {
   .resumebg {
     display: inline;
   }
+  .sabg,
+  .exp,
+  .int,
+  .ref {
+    background-color: #8ee4af;
+  }
+
+  .edubg,
+  .leadbg,
+  .socbg {
+    background-color: #5cdb95;
+  }
+
   p,
   li {
     font-size: 1.7em;
